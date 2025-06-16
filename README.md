@@ -9,7 +9,7 @@ Este repositorio está licenciado bajo la licencia [Creative Commons Atribución
 
 - Puedes copiar, modificar y compartir el contenido.
 - **No puedes usarlo con fines comerciales sin autorización expresa del autor.**
-- Debes dar crédito a: **SETH CHAVEZ BENAVIDES**
+- Debes dar crédito a: **PAUL CHAVEZ BENAVIDES**
 - Si modificas este trabajo, debes compartirlo bajo la misma licencia.
 
 Consulta el archivo [`LICENSE.txt`](LICENSE.txt) para más detalles.
