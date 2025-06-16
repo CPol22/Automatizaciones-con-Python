@@ -1,4 +1,4 @@
-# Automatizaciones-con-Python
+# Automatizaciones con Python
 Proyectos con Python
 
 Este repositorio contiene scripts y proyectos de automatización desarrollados en Python con fines educativos, personales y de libre uso no comercial.
