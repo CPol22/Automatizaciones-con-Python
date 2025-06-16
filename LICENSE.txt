@@ -1,0 +1,23 @@
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+
+Este trabajo, incluyendo el código y documentación incluidos en este repositorio, está licenciado bajo la licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.
+
+Usted es libre de:
+- Compartir — copiar y redistribuir el material en cualquier medio o formato.
+- Adaptar — remezclar, transformar y construir a partir del material.
+
+Bajo los siguientes términos:
+
+1. **Atribución** — Debe dar el crédito adecuado, proporcionar un enlace a la licencia e indicar si se han realizado cambios. Puede hacerlo en cualquier forma razonable, pero no de una manera que sugiera que usted o su uso tienen el apoyo del autor.
+
+2. **NoComercial** — No puede utilizar el material con fines comerciales.
+
+3. **CompartirIgual** — Si remezcla, transforma o construye a partir del material, debe distribuir su contribución bajo la misma licencia que el original.
+
+**Sin restricciones adicionales** — No puede aplicar términos legales ni medidas tecnológicas que restrinjan legalmente a otros de hacer cualquier cosa que la licencia permita.
+
+Para más información, visite: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Autor: PAUL CHAVEZ BENAVIDES  
+Año: 2025  
+Contacto: chavezbepaul24@gmail.com
