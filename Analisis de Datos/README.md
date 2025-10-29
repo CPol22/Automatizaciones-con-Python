@@ -13,12 +13,12 @@ Modos de apertura:
 
 | Modo | Acción | Descripción |
 |------|--------|-------------|
-| `'r'`  | Leer (read) | Abre el archivo solo para lectura. |
-| `'w'`  | Escribir (write) | Sobrescribe el archivo si existe, o lo crea si no. |
-| `'a'`  | Agregar (append) | Añade contenido al final sin borrar lo anterior. |
-| `'r+'` | Leer y escribir | Permite ambas operaciones sin borrar contenido. |
-| `'w+'` | Escribir y leer | Borra el contenido anterior y permite leer. |
-| `'a+'` | Leer y agregar | Permite leer y escribir al final. |
+| `r`  | Leer (read) | Abre el archivo solo para lectura. |
+| `w`  | Escribir (write) | Sobrescribe el archivo si existe, o lo crea si no. |
+| `a`  | Agregar (append) | Añade contenido al final sin borrar lo anterior. |
+| `r+` | Leer y escribir | Permite ambas operaciones sin borrar contenido. |
+| `w+` | Escribir y leer | Borra el contenido anterior y permite leer. |
+| `a+` | Leer y agregar | Permite leer y escribir al final. |
 
 La sintaxis general es:
 
