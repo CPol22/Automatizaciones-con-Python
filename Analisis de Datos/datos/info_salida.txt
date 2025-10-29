@@ -1,4 +1,0 @@
-2025-10-28 08:00:01 INFO Iniciando servicio
-2025-10-28 08:00:02 INFO Conexión establecida
-2025-10-28 08:00:08 INFO Servicio reiniciado correctamente
---- Análisis completado correctamente ---

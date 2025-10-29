@@ -1,0 +1,28 @@
+# === ARCHIVOS Y CARPETAS DE CONFIGURACIÓN ===
+# Credenciales o variables de entorno 
+*.env
+
+# Archivos temporales, logs o resultados de ejecución
+*.log
+*.tmp
+*.bak
+
+# === ARCHIVOS DE RESULTADOS / SALIDA ===
+# Ignorar los archivos generados automáticamente en análisis
+Analisis de Datos/datos/error_salida.txt
+Analisis de Datos/datos/info_salida.txt
+
+Base de Datos/credenciales.env
+
+# === ENTORNOS VIRTUALES ===
+venv/
+.env/
+__pycache__/
+*.pyc
+
+# === ARCHIVOS DE SISTEMA ===
+.DS_Store
+Thumbs.db
+
+# === ARCHIVOS DE VSCODE ===
+.vscode/
