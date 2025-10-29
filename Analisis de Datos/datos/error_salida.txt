@@ -1,0 +1,4 @@
+2025-10-28 08:00:05 ERROR Timeout al leer base de datos
+2025-10-28 08:00:06 ERROR Intentando reconectar
+2025-10-28 08:00:07 ERROR Reconexión fallida
+2025-10-28 08:00:10 ERROR Consulta excedió el tiempo límite
