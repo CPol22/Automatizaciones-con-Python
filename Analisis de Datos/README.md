@@ -1,14 +1,15 @@
-# Lectura y Escritura de Archivos en Python
+# Manejo de Archivos .txt en Python
 
-Este ejemplo muestra cómo **leer, escribir, guardar y modificar archivos de texto (`.txt`)** usando Python de forma segura y eficiente.
+A continuación se muestra cómo **leer, escribir, guardar y modificar archivos de texto (`.txt`)** usando Python de forma segura y eficiente.
 
 ---
 
 ## Descripción
 
-Python maneja nativamente la lectura y escritura de archivos mediante la función `open()` y el contexto `with`, que garantiza el cierre automático del archivo.
+Python maneja nativamente la lectura y escritura de archivos mediante la función `open()` y el contexto `with`,  
+que garantiza que el archivo se **abra correctamente** y se **cierre automáticamente** al finalizar, incluso si ocurre un error durante la ejecución.
 
-Modos de apertura más comunes:
+Modos de apertura:
 
 | Modo | Acción | Descripción |
 |------|--------|-------------|
@@ -19,8 +20,21 @@ Modos de apertura más comunes:
 | `'w+'` | Escribir y leer | Borra el contenido anterior y permite leer. |
 | `'a+'` | Leer y agregar | Permite leer y escribir al final. |
 
----
+La sintaxis general es:
 
 ```python
 with open('ruta/del/archivo.txt', 'modo', encoding='utf-8') as archivo:
     # operaciones de lectura o escritura
+```
+## Operaciones Basicas:
+
+
+
+| Método | Descripción | Ejemplo |
+|------|--------|-------------|
+| `read()`  | Lee todo el contenido del archivo como una sola cadena de texto. | contenido = archivo.read() |
+| `'readline()'`  | Lee una sola línea por llamada. Ideal para bucles. | linea = archivo.readline() |
+| `'readlines()'`  | Devuelve una lista con todas las líneas del archivo. | lineas = archivo.readlines() |
+| `'write(texto)'` | Leer y escribir | Permite ambas operaciones sin borrar contenido. |
+| `'writelines(lista)'` | Escribir y leer | Borra el contenido anterior y permite leer. |
+| `'a+'` | Leer y agregar | Permite leer y escribir al final. |
