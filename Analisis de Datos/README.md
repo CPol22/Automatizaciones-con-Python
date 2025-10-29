@@ -33,15 +33,15 @@ with open('ruta/del/archivo.txt', 'modo', encoding='utf-8') as archivo:
 | Método | Descripción | Ejemplo |
 |------|--------|-------------|
 | `read()`  | Lee todo el contenido del archivo como una sola cadena de texto. | contenido = archivo.read() |
-| `'readline()'`  | Lee una sola línea por llamada. Ideal para bucles. | linea = archivo.readline() |
-| `'readlines()'`  | Devuelve una lista con todas las líneas del archivo. | lineas = archivo.readlines() |
+| `readline()`  | Lee una sola línea por llamada. Ideal para bucles. | linea = archivo.readline() |
+| `readlines()`  | Devuelve una lista con todas las líneas del archivo. | lineas = archivo.readlines() |
 
 ### Escritura
 
 | Método | Descripción | Ejemplo |
 |------|--------|-------------|
-| `'write(texto)'` | Escribe una cadena de texto en el archivo. | archivo.write("Hola mundo\n") |
-| `'writelines(lista)'` | Escribe una lista de cadenas línea por línea. | archivo.writelines(["Línea 1\n", "Línea 2\n"] |
+| `write(texto)` | Escribe una cadena de texto en el archivo. | archivo.write("Hola mundo\n") |
+| `writelines(lista)` | Escribe una lista de cadenas línea por línea. | archivo.writelines(["Línea 1\n", "Línea 2\n"] |
 
 ## Manipulación de Texto
 
@@ -59,7 +59,7 @@ A continuación se resumen los **métodos más usados** con ejemplos prácticos.
 | `strip()` | Elimina espacios, tabulaciones y saltos de línea al **inicio y final** de una cadena. | `"  Hola \n".strip()` | `'Hola'` |
 | `lstrip()` | Elimina espacios o caracteres solo **a la izquierda**. | `"   texto".lstrip()` | `'texto'` |
 | `rstrip()` | Elimina espacios o caracteres solo **a la derecha**. | `"texto   ".rstrip()` | `'texto'` |
-| `replace(a, b)` | Reemplaza todas las ocurrencias de `a` por `b`. | `"Hola Mundo".replace("Mundo", "Python")` | `'Hola Python'` |
+| `replace(a,b)` | Reemplaza todas las ocurrencias de `a` por `b`. | `"Hola Mundo".replace("Mundo", "Python")` | `'Hola Python'` |
 | `lower()` | Convierte todo el texto a **minúsculas**. | `"PYTHON".lower()` | `'python'` |
 | `upper()` | Convierte todo el texto a **mayúsculas**. | `"python".upper()` | `'PYTHON'` |
 | `capitalize()` | Pone **la primera letra en mayúscula**. | `"hola mundo".capitalize()` | `'Hola mundo'` |
