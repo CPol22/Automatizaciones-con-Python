@@ -9,6 +9,11 @@ A continuación se muestra cómo **leer, escribir, guardar y modificar archivos 
 Python maneja nativamente la lectura y escritura de archivos mediante la función `open()` y el contexto `with`,  
 que garantiza que el archivo se **abra correctamente** y se **cierre automáticamente** al finalizar, incluso si ocurre un error durante la ejecución.
 
+La sintaxis general es:
+
+```python
+with open('ruta/del/archivo.txt', 'modo', encoding='utf-8') as archivo:
+```
 Modos de apertura:
 
 | Modo | Acción | Descripción |
@@ -19,12 +24,7 @@ Modos de apertura:
 | `r+` | Leer y escribir | Permite ambas operaciones sin borrar contenido. |
 | `w+` | Escribir y leer | Borra el contenido anterior y permite leer. |
 | `a+` | Leer y agregar | Permite leer y escribir al final. |
-
-La sintaxis general es:
-
-```python
-with open('ruta/del/archivo.txt', 'modo', encoding='utf-8') as archivo:
-```
+---
 
 ## Operaciones Basicas:
 
