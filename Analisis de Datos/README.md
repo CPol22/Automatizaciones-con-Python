@@ -8,9 +8,6 @@ Este ejemplo muestra cómo **leer, escribir, guardar y modificar archivos de tex
 
 Python maneja nativamente la lectura y escritura de archivos mediante la función `open()` y el contexto `with`, que garantiza el cierre automático del archivo.
 
-```python
-with open('ruta/del/archivo.txt', 'modo', encoding='utf-8') as archivo:
-    # operaciones de lectura o escritura
 Modos de apertura más comunes:
 
 | Modo | Acción | Descripción |
@@ -23,3 +20,7 @@ Modos de apertura más comunes:
 | `'a+'` | Leer y agregar | Permite leer y escribir al final. |
 
 ---
+
+```python
+with open('ruta/del/archivo.txt', 'modo', encoding='utf-8') as archivo:
+    # operaciones de lectura o escritura
